@@ -108,3 +108,15 @@ The User Management interface provides administrators with the ability to view, 
    - **Label**: "Enabled"
    - **Default**: Unchecked
    - **Behavior**: Toggle between enabled/disabled user status
+
+### Form Actions
+
+1. **Save User Button**
+   - **Style**: Blue button with white text
+   - **Position**: Top-right corner of the form
+   - **Behavior**: 
+     - Validate all required fields
+     - Show loading state during submission
+     - Display success/error messages
+     - Clear form on successful submission
+     - Refresh user list to show new user
