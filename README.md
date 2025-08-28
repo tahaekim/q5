@@ -120,3 +120,29 @@ The User Management interface provides administrators with the ability to view, 
      - Display success/error messages
      - Clear form on successful submission
      - Refresh user list to show new user
+
+## Initial Page State
+
+### On Page Load
+1. **User List**: Load and display all users or filtered by "Hide Disabled User" setting
+2. **Form**: Empty form with default values
+3. **Sorting**: Default sort by ID (ascending)
+
+### Data Loading
+- **Loading Indicator**: Show spinner while fetching initial user data
+- **Error Handling**: Display error message if data cannot be loaded
+
+## Responsive Behavior
+
+### Desktop
+- Two-column layout as described above
+
+### Tablet
+- Maintain two-column layout with reduced spacing
+- Adjust column widths proportionally
+
+### Mobile
+- Stack sections vertically
+- User list on top, form below
+- Table becomes scrollable horizontally
+- Form fields stack vertically with full width
