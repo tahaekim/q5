@@ -58,3 +58,53 @@ The User Management interface provides administrators with the ability to view, 
 #### Table Behavior
 - **Row Selection**: Clicking a row should highlight it
 - **Empty State**: Display "No users found" message when table is empty
+
+
+## Right Section: New User Form
+
+### Form Header
+- **Title**: "New User" at the top of the form
+- **Style**: Bold, larger font size
+
+### Form Fields
+
+1. **Username Field**
+   - **Type**: Text input
+   - **Label**: "Username"
+   - **Validation**: Required, alphanumeric characters only
+   - **Real-time Validation**: Show error message if invalid
+
+2. **Display Name Field**
+   - **Type**: Text input
+   - **Label**: "Display Name"
+   - **Validation**: Required, 2-50 characters
+   - **Real-time Validation**: Show error message if invalid
+
+3. **Phone Field**
+   - **Type**: Text input
+   - **Label**: "Phone"
+   - **Validation**: Optional, phone number format validation
+   - **Real-time Validation**: Show error message if invalid format
+
+4. **Email Field**
+   - **Type**: Email input
+   - **Label**: "Email"
+   - **Validation**: Required, valid email format
+   - **Real-time Validation**: Show error message if invalid
+
+5. **User Roles Field**
+   - **Type**: Dropdown/Select
+   - **Label**: "User Roles"
+   - **Options**: 
+     - Guest
+     - Admin
+     - SuperAdmin
+   - **Default**: No selection
+   - **Validation**: Required
+   - **Behavior**: Dropdown should open on click, highlight hovered option in blue
+
+6. **Enabled Field**
+   - **Type**: Checkbox
+   - **Label**: "Enabled"
+   - **Default**: Unchecked
+   - **Behavior**: Toggle between enabled/disabled user status
